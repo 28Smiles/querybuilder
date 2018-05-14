@@ -17,7 +17,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 class TestBuilder {
 
     private final String table1 = "table1";
-    private final String table2 = "table1";
+    private final String table2 = "table2";
     private final String foo = "foo";
     private final String bar = "bar";
     private final String t1 = "t1";
@@ -34,7 +34,7 @@ class TestBuilder {
                 .where(table1 + ".value = 12")
                 .toString();
 
-        assertEquals("SELECT table1 \"foo\", table1 \"bar\" FROM t1, (SELECT * FROM allee WHERE allee.id = 2) table1 WHERE table1.value = 12", query);
+        assertEquals("SELECT table1 \"foo\", table2 \"bar\" FROM t1, (SELECT * FROM allee WHERE allee.id = 2) table1 WHERE table1.value = 12", query);
     }
 
     @Test
