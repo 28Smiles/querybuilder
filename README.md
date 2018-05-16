@@ -4,15 +4,13 @@ A simple libary for building sql querys in java, with less stringyness and more 
 You want to use SQL instead of JPA but still have some modularity in your querys? Then use this, elsewise if you are a fan of Hibernate and JPA please pass on.
 
 ```
-select(  
-    ref(table1).as(foo),  
-    ref(table2).as(bar))  
-.from(  
-        ref(t1),  
-        select("*").from(ref(allee)).where(allee + ".id = 2").as(table2))  
-.where(table1 + ".value = 12")  
-.toString()  
+Q.table(TestBean.class, FooBean.class).query(((q, t) ->
+                q.select(t[0])
+                        .from(t[0])
+                        .orderBy(t[0] + ".id", SortOrder.ASC)
+                        .offset(0)
+                        .limit(30))));
 ```
 ```
-SELECT table1 "foo", table1 "bar" FROM t1, (SELECT * FROM allee WHERE allee.id = 2) table1 WHERE table1.value = 12
+SELECT test_bean.bar AS "test_bean.bar", test_bean.foo AS "test_bean.foo", test_bean.id AS "test_bean.id" FROM test_bean ORDER BY test_bean.id ASC OFFSET 0 LIMIT 30
 ```
