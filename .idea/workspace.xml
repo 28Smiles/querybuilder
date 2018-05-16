@@ -1,7 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a3864628-f512-4df4-86ae-7c729dcc48c7" name="Default" comment="" />
+    <list default="true" id="a3864628-f512-4df4-86ae-7c729dcc48c7" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/de/smiles/querybuilder/Q.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/FooBean.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/TestBean.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/TestQuery.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/querybuildercore.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/de/smiles/querybuilder/Query.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/de/smiles/querybuilder/pattern/From.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/de/smiles/querybuilder/pattern/Join.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/de/smiles/querybuilder/pattern/NamedSelect.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/de/smiles/querybuilder/pattern/Select.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/de/smiles/querybuilder/pattern/Table.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/de/smiles/querybuilder/pattern/TableReference.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/de/smiles/querybuilder/pattern/Where.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/H2Extension.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/H2Extension.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/TestBuilder.java" beforeDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -19,15 +38,24 @@
     </option>
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="TestBuilder.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/TestBuilder.java">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="TestQuery.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/TestQuery.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="382">
-              <caret line="44" column="90" selection-start-line="44" selection-start-column="90" selection-end-line="44" selection-end-column="90" />
+            <state relative-caret-position="380">
+              <caret line="34" column="19" lean-forward="true" selection-start-line="34" selection-start-column="19" selection-end-line="34" selection-end-column="19" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TestBean.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/TestBean.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -37,10 +65,19 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Kotlin File" />
         <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>beanInformation</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GradleLocalSettings">
     <option name="projectSyncType">
@@ -57,16 +94,23 @@
         <option value="$PROJECT_DIR$/src/main/java/de/smiles/querybuilder/helper/Pair.java" />
         <option value="$PROJECT_DIR$/src/main/java/de/smiles/querybuilder/pattern/Query.java" />
         <option value="$PROJECT_DIR$/src/main/java/de/smiles/querybuilder/pattern/Table.java" />
-        <option value="$PROJECT_DIR$/src/main/java/de/smiles/querybuilder/Query.java" />
         <option value="$PROJECT_DIR$/src/main/java/de/smiles/querybuilder/pattern/Join.java" />
         <option value="$PROJECT_DIR$/src/main/java/de/smiles/querybuilder/pattern/Where.java" />
         <option value="$PROJECT_DIR$/src/main/java/de/smiles/querybuilder/pattern/NamedSelect.java" />
         <option value="$PROJECT_DIR$/src/main/java/de/smiles/querybuilder/pattern/Select.java" />
         <option value="$PROJECT_DIR$/src/main/java/de/smiles/querybuilder/pattern/From.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/de/smiles/querybuilder/pattern/TableReference.java" />
-        <option value="$PROJECT_DIR$/src/test/java/H2Extension.java" />
         <option value="$PROJECT_DIR$/src/test/java/TestBuilder.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/TestBean.java" />
+        <option value="$PROJECT_DIR$/src/main/java/de/smiles/querybuilder/Query.java" />
+        <option value="$PROJECT_DIR$/src/main/java/de/smiles/querybuilder/TableProvider.java" />
+        <option value="$PROJECT_DIR$/src/test/java/TestKotlin.java" />
+        <option value="$PROJECT_DIR$/src/test/java/FooBean.java" />
+        <option value="$PROJECT_DIR$/src/test/java/H2Extension.java" />
+        <option value="$PROJECT_DIR$/src/main/java/de/smiles/querybuilder/Q.java" />
+        <option value="$PROJECT_DIR$/src/main/java/de/smiles/querybuilder/Query.kt" />
+        <option value="$PROJECT_DIR$/src/test/java/TestQuery.java" />
       </list>
     </option>
   </component>
@@ -76,72 +120,74 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="querybuilder-core" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
+    <option name="x" value="308" />
     <option name="y" value="-8" />
-    <option name="width" value="1936" />
-    <option name="height" value="1056" />
+    <option name="width" value="974" />
+    <option name="height" value="1008" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="querybuildercore" type="b2602c69:ProjectViewProjectNode" />
-              <item name="querybuildercore" type="462c0819:PsiDirectoryNode" />
+              <item name="querybuilder" type="b2602c69:ProjectViewProjectNode" />
+              <item name="querybuilder" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="querybuildercore" type="b2602c69:ProjectViewProjectNode" />
-              <item name="querybuildercore" type="462c0819:PsiDirectoryNode" />
+              <item name="querybuilder" type="b2602c69:ProjectViewProjectNode" />
+              <item name="querybuilder" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="querybuildercore" type="b2602c69:ProjectViewProjectNode" />
-              <item name="querybuildercore" type="462c0819:PsiDirectoryNode" />
+              <item name="querybuilder" type="b2602c69:ProjectViewProjectNode" />
+              <item name="querybuilder" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="querybuildercore" type="b2602c69:ProjectViewProjectNode" />
-              <item name="querybuildercore" type="462c0819:PsiDirectoryNode" />
+              <item name="querybuilder" type="b2602c69:ProjectViewProjectNode" />
+              <item name="querybuilder" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="querybuildercore" type="b2602c69:ProjectViewProjectNode" />
-              <item name="querybuildercore" type="462c0819:PsiDirectoryNode" />
+              <item name="querybuilder" type="b2602c69:ProjectViewProjectNode" />
+              <item name="querybuilder" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="querybuilder" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="querybuildercore" type="b2602c69:ProjectViewProjectNode" />
-              <item name="querybuildercore" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="querybuilder" type="b2602c69:ProjectViewProjectNode" />
               <item name="querybuilder" type="462c0819:PsiDirectoryNode" />
-              <item name="pattern" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="querybuildercore" type="b2602c69:ProjectViewProjectNode" />
-              <item name="querybuildercore" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="querybuildercore" type="b2602c69:ProjectViewProjectNode" />
-              <item name="querybuildercore" type="462c0819:PsiDirectoryNode" />
+              <item name="querybuilder" type="b2602c69:ProjectViewProjectNode" />
+              <item name="querybuilder" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -150,6 +196,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="AndroidView" />
     </panes>
@@ -166,7 +213,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.general" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -180,7 +227,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.TestBuilder">
+  <component name="RunManager" selected="JUnit.TestQuery">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -226,6 +273,40 @@
       <option name="MAIN_CLASS_NAME" value="TestBuilder" />
       <option name="METHOD_NAME" value="testDatabase(java.sql.Connection)" />
       <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="TestKotlin" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="querybuilder-core" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TestKotlin" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="TestQuery" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="querybuilder-core" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TestQuery" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
@@ -287,9 +368,13 @@
       <item itemvalue="JUnit.TestBuilder.buildSimple" />
       <item itemvalue="JUnit.TestBuilder.testDatabase" />
       <item itemvalue="JUnit.TestBuilder" />
+      <item itemvalue="JUnit.TestKotlin" />
+      <item itemvalue="JUnit.TestQuery" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TestQuery" />
+        <item itemvalue="JUnit.TestKotlin" />
         <item itemvalue="JUnit.TestBuilder" />
         <item itemvalue="JUnit.TestBuilder.testDatabase" />
         <item itemvalue="JUnit.TestBuilder.buildSimple" />
@@ -307,57 +392,70 @@
       <option name="presentableId" value="Default" />
       <updated>1526246732065</updated>
       <workItem from="1526246737203" duration="10994000" />
+      <workItem from="1526257996788" duration="80000" />
+      <workItem from="1526258246000" duration="253000" />
+      <workItem from="1526302498208" duration="1267000" />
+      <workItem from="1526420580423" duration="15180000" />
+      <workItem from="1526464234480" duration="10713000" />
     </task>
+    <task id="LOCAL-00001" summary="Fixed Typo">
+      <created>1526309194267</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1526309194268</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TestBuilder_buildSimple - 2018.05.14 at 02h 05m 58s.xml">
-      <configuration name="TestBuilder.buildSimple" configurationId="JUnit" />
+    <history-entry file="TestQuery - 2018.05.16 at 13h 49m 42s.xml">
+      <configuration name="TestQuery" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestBuilder_testDatabase - 2018.05.14 at 02h 08m 14s.xml">
-      <configuration name="TestBuilder.testDatabase" configurationId="JUnit" />
+    <history-entry file="TestQuery - 2018.05.16 at 14h 28m 01s.xml">
+      <configuration name="TestQuery" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestBuilder_testDatabase - 2018.05.14 at 02h 08m 24s.xml">
-      <configuration name="TestBuilder.testDatabase" configurationId="JUnit" />
+    <history-entry file="TestQuery - 2018.05.16 at 14h 29m 09s.xml">
+      <configuration name="TestQuery" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestBuilder_buildSimple - 2018.05.14 at 02h 08m 31s.xml">
-      <configuration name="TestBuilder.buildSimple" configurationId="JUnit" />
+    <history-entry file="TestQuery - 2018.05.16 at 14h 30m 06s.xml">
+      <configuration name="TestQuery" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestBuilder_buildSimple - 2018.05.14 at 02h 09m 27s.xml">
-      <configuration name="TestBuilder.buildSimple" configurationId="JUnit" />
+    <history-entry file="TestQuery - 2018.05.16 at 14h 40m 54s.xml">
+      <configuration name="TestQuery" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestBuilder_testDatabase - 2018.05.14 at 02h 09m 31s.xml">
-      <configuration name="TestBuilder.testDatabase" configurationId="JUnit" />
+    <history-entry file="TestQuery - 2018.05.16 at 14h 41m 20s.xml">
+      <configuration name="TestQuery" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestBuilder_testDatabase - 2018.05.14 at 02h 13m 21s.xml">
-      <configuration name="TestBuilder.testDatabase" configurationId="JUnit" />
+    <history-entry file="TestQuery - 2018.05.16 at 14h 45m 17s.xml">
+      <configuration name="TestQuery" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestBuilder_testDatabase - 2018.05.14 at 02h 21m 09s.xml">
-      <configuration name="TestBuilder.testDatabase" configurationId="JUnit" />
+    <history-entry file="TestQuery - 2018.05.16 at 14h 45m 22s.xml">
+      <configuration name="TestQuery" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestBuilder - 2018.05.14 at 02h 21m 17s.xml">
-      <configuration name="TestBuilder" configurationId="JUnit" />
+    <history-entry file="TestQuery - 2018.05.16 at 14h 45m 38s.xml">
+      <configuration name="TestQuery" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestBuilder - 2018.05.14 at 02h 24m 09s.xml">
-      <configuration name="TestBuilder" configurationId="JUnit" />
+    <history-entry file="TestQuery - 2018.05.16 at 14h 46m 05s.xml">
+      <configuration name="TestQuery" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10994000" />
+    <option name="totallyTimeSpent" value="38487000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
       <window_info anchor="right" id="Palette" order="5" />
       <window_info anchor="bottom" id="TODO" order="11" />
-      <window_info anchor="bottom" id="Messages" weight="0.32946146" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.32946146" />
       <window_info anchor="right" id="Palette&#9;" order="1" />
       <window_info id="Image Layers" order="4" />
       <window_info anchor="right" id="Capture Analysis" order="0" />
       <window_info anchor="bottom" id="Event Log" order="4" side_tool="true" />
-      <window_info anchor="right" id="Maven Projects" order="4" />
+      <window_info anchor="right" id="Maven Projects" order="4" weight="0.17604166" />
       <window_info anchor="bottom" id="Database Changes" order="2" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="1" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="1" weight="0.218585" />
       <window_info anchor="bottom" id="Run" order="7" visible="true" weight="0.32946146" />
       <window_info anchor="bottom" id="CheckStyle" order="0" />
       <window_info anchor="bottom" id="Terminal" order="3" />
@@ -365,57 +463,133 @@
       <window_info id="Designer" order="0" />
       <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.25" />
       <window_info anchor="right" id="Database" order="3" />
-      <window_info anchor="bottom" id="Find" order="6" weight="0.32946146" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="7" weight="0.25" />
       <window_info id="UI Designer" order="1" />
       <window_info anchor="right" id="Theme Preview" order="2" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="8" weight="0.39915523" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="6" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="8" weight="0.25" />
+      <window_info anchor="right" id="Kotlin Bytecode" order="6" weight="0.2953125" />
       <window_info anchor="bottom" id="Inspection" order="10" weight="0.4" />
-      <window_info anchor="bottom" id="Message" order="5" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="6" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="9" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="5" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="8" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="6" weight="0.32946146" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Fixed Typo" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fixed Typo" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="9" />
+      <option name="time" value="22" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/de/smiles/querybuilder/Query.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/TestQuery.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="24" selection-start-line="24" selection-end-line="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/jetbrains/kotlin/kotlin-stdlib/1.2.41/kotlin-stdlib-1.2.41-sources.jar!/generated/_Collections.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22355">
+          <caret line="1315" selection-start-line="1315" selection-end-line="1315" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/junit/platform/junit-platform-commons/1.2.0/junit-platform-commons-1.2.0.jar!/org/junit/platform/commons/util/ReflectionUtils.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3961">
+          <caret line="233" selection-start-line="233" selection-end-line="233" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/de/smiles/querybuilder/Query.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="714">
+          <caret line="42" column="88" selection-start-line="42" selection-start-column="88" selection-end-line="42" selection-end-column="88" />
+          <folding>
+            <element signature="e#32#253#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/TestBuilder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="36" column="51" selection-start-line="36" selection-start-column="51" selection-end-line="36" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/TestBuilder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="27" column="36" lean-forward="true" selection-start-line="27" selection-start-column="36" selection-end-line="27" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/TestBuilder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="748">
+          <caret line="44" column="90" selection-start-line="44" selection-start-column="90" selection-end-line="44" selection-end-column="90" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/TestBuilder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="595">
+          <caret line="44" column="90" selection-start-line="44" selection-start-column="90" selection-end-line="44" selection-end-column="90" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/de/smiles/querybuilder/pattern/Query.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
           <caret line="8" column="4" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/de/smiles/querybuilder/helper/Pair.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="11" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="11" />
-          <folding>
-            <element signature="e#295#296#0" expanded="true" />
-            <element signature="e#322#323#0" expanded="true" />
-            <element signature="e#349#350#0" expanded="true" />
-            <element signature="e#377#378#0" expanded="true" />
-            <element signature="e#422#423#0" expanded="true" />
-            <element signature="e#444#445#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/querybuildercore.iml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/de/smiles/querybuilder/helper/Pair.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/de/smiles/querybuilder/pattern/Join.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="811">
@@ -423,40 +597,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/de/smiles/querybuilder/Query.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="25" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="25" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#246#247#0" expanded="true" />
-            <element signature="e#287#288#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/de/smiles/querybuilder/pattern/Where.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
           <caret line="18" column="31" selection-start-line="18" selection-start-column="31" selection-end-line="18" selection-end-column="31" />
-          <folding>
-            <element signature="e#325#326#0" expanded="true" />
-            <element signature="e#367#368#0" expanded="true" />
-            <element signature="e#405#406#0" expanded="true" />
-            <element signature="e#465#466#0" expanded="true" />
-            <element signature="e#502#503#0" expanded="true" />
-            <element signature="e#561#562#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/de/smiles/querybuilder/pattern/Insert.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="21" lean-forward="true" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/de/smiles/querybuilder/pattern/Insert.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/de/smiles/querybuilder/pattern/Table.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
@@ -470,27 +618,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/de/smiles/querybuilder/pattern/FromParam.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="26" selection-start-line="6" selection-start-column="26" selection-end-line="6" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/de/smiles/querybuilder/pattern/SelectParam.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/de/smiles/querybuilder/pattern/FromParam.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/de/smiles/querybuilder/pattern/SelectParam.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/de/smiles/querybuilder/pattern/From.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="125">
           <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -501,59 +634,132 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="346">
-          <caret line="29" column="21" selection-start-line="29" selection-start-column="21" selection-end-line="29" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/de/smiles/querybuilder/pattern/TableReference.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
           <caret line="23" column="60" selection-start-line="23" selection-start-column="60" selection-end-line="23" selection-end-column="60" />
-          <folding>
-            <element signature="e#317#318#0" expanded="true" />
-            <element signature="e#381#382#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/junit/platform/junit-platform-commons/1.2.0/junit-platform-commons-1.2.0.jar!/org/junit/platform/commons/util/ReflectionUtils.class">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="234" selection-start-line="234" selection-end-line="234" />
+        <state relative-caret-position="550">
+          <caret line="46" column="21" selection-start-line="46" selection-start-column="21" selection-end-line="46" selection-end-column="21" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/H2Extension.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/javassist/javassist/3.12.0.GA/javassist-3.12.0.GA.jar!/javassist/util/proxy/MethodHandler.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="32" column="78" selection-start-line="32" selection-start-column="78" selection-end-line="32" selection-end-column="78" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="102">
+          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/javassist/javassist/3.12.0.GA/javassist-3.12.0.GA.jar!/javassist/util/proxy/MethodFilter.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/javassist/javassist/3.12.0.GA/javassist-3.12.0.GA.jar!/javassist/util/proxy/ProxyFactory.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3130">
+          <caret line="120" column="16" selection-start-line="120" selection-start-column="16" selection-end-line="120" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/de/smiles/querybuilder/pattern/Query.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/de/smiles/querybuilder/pattern/Select.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="17" column="16" selection-start-line="17" selection-start-column="16" selection-end-line="17" selection-end-column="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#229#230#0" expanded="true" />
-            <element signature="e#276#277#0" expanded="true" />
-            <element signature="e#317#318#0" expanded="true" />
-            <element signature="e#368#369#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="255">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/junit/platform/junit-platform-commons/1.2.0/junit-platform-commons-1.2.0.jar!/org/junit/platform/commons/util/ReflectionUtils.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2669">
+          <caret line="233" selection-start-line="233" selection-end-line="233" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/jetbrains/kotlin/kotlin-stdlib/1.2.41/kotlin-stdlib-1.2.41-sources.jar!/generated/_Collections.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="1316" selection-start-line="1316" selection-end-line="1316" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk-10.0.1/lib/src.zip!/java.base/java/lang/Object.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="202">
+          <caret line="49" column="11" selection-start-line="49" selection-start-column="11" selection-end-line="49" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/de/smiles/querybuilder/TableProvider.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="44" selection-start-line="8" selection-start-column="44" selection-end-line="8" selection-end-column="44" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/TestBuilder.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="382">
-          <caret line="44" column="90" selection-start-line="44" selection-start-column="90" selection-end-line="44" selection-end-column="90" />
+        <state relative-caret-position="102">
+          <caret line="6" column="44" selection-start-line="6" selection-start-column="44" selection-end-line="6" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/H2Extension.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/FooBean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/de/smiles/querybuilder/Q.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="19" column="69" selection-start-line="19" selection-start-column="69" selection-end-line="19" selection-end-column="69" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/de/smiles/querybuilder/Query.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="602">
+          <caret line="149" column="58" selection-start-line="149" selection-start-column="58" selection-end-line="149" selection-end-column="58" />
+          <folding>
+            <element signature="e#32#253#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/TestBean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/TestQuery.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="34" column="19" lean-forward="true" selection-start-line="34" selection-start-column="19" selection-end-line="34" selection-end-column="19" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -612,7 +818,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>querybuildercore</last-edited>
+          <last-edited>querybuilder-core</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -636,6 +842,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
+          <last-edited>Maven: com.h2database:h2:1.4.197</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

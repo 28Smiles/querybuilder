@@ -13,10 +13,6 @@ import java.sql.DriverManager;
 import java.sql.Savepoint;
 import java.util.UUID;
 
-/**
- * @author Leon Camus
- * @since 14.04.2018
- */
 public class H2Extension implements BeforeEachCallback, BeforeAllCallback, AfterAllCallback, AfterEachCallback, ParameterResolver {
 
     private Server server;
